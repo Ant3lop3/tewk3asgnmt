@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    background-color: rgb(99, 229, 250);
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.grid-wrapper { 
+    height: 100svh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    
+}
+
+.grid-wrapper button {
+    grid-column: 7 / 9;
+    grid-row: 5 / 5;
+    background-color: transparent;
+    border-radius: 100px;
+      /*>>>this reduces this clickable area of the button */
+    cursor: copy;
+    border: none;
+    
+}
+
+img {
+    height: 30svh;
+    animation-name: spin;
+    animation-duration: 30000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.grid-wrapper .cookieHud {
+    grid-column: 8 / 8;
+    grid-row: 9 / 9;
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    
+}
+.cookieHud {
+    width: 35svw;
+}
+
+.grid-wrapper .shopCont {
+    top: 0px;
+    left: 1svw;
+    position: absolute;
+    font-size: 20px;
+    
+    
+}
+
+.shop-item button {
+    background-color: rgb(249, 200, 124);
+    font-family: "Pixelify Sans", sans-serif;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
