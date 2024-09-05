@@ -15,5 +15,4 @@ CSS
 clip-path: circle(50% at 50% 50%);
 
 Reflection:
-
-(TBC)
+On this project I decided to focus on the functional JS side, rather than the styling as I still feel I’m weaker in this area. In order to help me out I’ve added a lot of comments within the app.js file. Breaking it down and explaining what’s going on and why. By doing this I hope it will better my understanding if/when I view it at a later date. There may come a time when I need a function that will allow a specific action in a project, but I can’t quite remember how to write it or get it to work but I know I used it before in this project. This will allow me to refer back to this code base and understand what’s going on.
